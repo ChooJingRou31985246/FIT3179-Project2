@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global Average Temperature Anomaly.",
+  "width": 600,
+  "height": 600,
+
+  "data": {"url": "https://raw.githubusercontent.com/ChooJingRou31985246/FIT3179-Project2/main/Source/temperature-anomaly.csv"},
+  "mark": {"type": "line"},
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}},
+    "y": {"field": "Temperature", "type": "quantitative", "axis": {"format": ""}, "title": "Temperature (℃)"},
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "legend":null,
+      "scale": {
+        "domain": [
+          "Median temperature",
+          "Upper bound (95% CI)",
+          "Lower bound (95% CI)"
+        ],
+        "range": [
+          "#d62828",
+          "#979dac",
+          "#979dac"
+        ]
+      }
+    },
+    "opacity": {
+      "condition": {
+        "test": "datum['Category'] == 'Median temperature'",
+        "value": 1
+      },
+      "value": 0.4
+    }
+  },
+  "layer": [{
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "Year", "title":"Year"},
+      "y": {"aggregate": {"argmax": "Year"}, "field": "Temperature"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"Category", "type": "nominal"}}
+    }]
+  }]
+  
+}
