@@ -1,0 +1,18 @@
+Sub-sector,Share of global greenhouse gas emissions (%),Category
+Transport,0.162,Energy
+Energy in buildings (elec and heat),0.175,Energy
+Energy in industry,0.242,Energy
+Energy in Agri & Fishing,0.017,Energy
+Unallocated fuel combustion,0.078,Energy
+Fugitive emissions from energy,0.058,Energy
+Cement,0.03,Industry
+Chemical & petrochemical,0.022,Industry
+Livestock & Manure,0.058,"Agriculture, Forestry & Land Use"
+Rice Cultivation,0.013,"Agriculture, Forestry & Land Use"
+Agricultural Soils,0.041,"Agriculture, Forestry & Land Use"
+Crop Burning,0.035,"Agriculture, Forestry & Land Use"
+Forest Land,0.022,"Agriculture, Forestry & Land Use"
+Cropland,0.014,"Agriculture, Forestry & Land Use"
+Grassland,0.001,"Agriculture, Forestry & Land Use"
+Landfills,0.019,Waste
+Wastewater,0.013,Waste
