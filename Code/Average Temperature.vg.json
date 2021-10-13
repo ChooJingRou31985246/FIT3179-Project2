@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Global Average Temperature Anomaly.",
+  "title": "Global Average Temperature Anomaly",
   "width": 400,
   "height": 400,
+  "background": "#f0efeb",
 
   "data": {"url": "https://raw.githubusercontent.com/ChooJingRou31985246/FIT3179-Project2/main/Source/temperature-anomaly.csv"},
   "mark": {"type": "line"},
@@ -31,7 +32,7 @@
         "test": "datum['Category'] == 'Median temperature'",
         "value": 1
       },
-      "value": 0.4
+      "value": 0.6
     }
   },
   "layer": [{
