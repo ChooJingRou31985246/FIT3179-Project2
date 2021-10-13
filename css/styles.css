@@ -1,0 +1,78 @@
+.page {
+    background: #f0efeb;
+    margin: auto;
+    padding: 50px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.vis--title {
+  margin-top: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.body--graph {
+	display: flex;
+	flex-direction: row;
+}
+
+.vis1--container {
+	padding: 3px;
+}
+.vis1--des {
+	text-align: left;
+	margin: 3px;
+	align-self: center;
+}
+
+.vis2--container {
+  display: block;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vis2--des {
+  margin-top: 30px;
+	text-align: left;
+	margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.vis3--des {
+	text-align: left;
+	margin: 3px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.vis4--container {
+	padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vis4--des {
+	text-align: left;
+	margin: 3px;
+	align-self: center;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
