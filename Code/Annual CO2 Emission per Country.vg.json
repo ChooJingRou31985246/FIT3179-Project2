@@ -4,6 +4,7 @@
     "width": 450,
     "height": 300,
     "projection": {"type": "equirectangular"},
+    "background": "#f0efeb",
 
     "params": [
         {
