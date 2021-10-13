@@ -45,7 +45,17 @@
       "mark": {"type": "circle"}
     }, {
       "mark": {"type": "text", "align": "left", "dx": 4},
-      "encoding": {"text": {"field":"Category", "type": "nominal"}}
+      "encoding": {
+        "text": {"field":"Category", "type": "nominal"},
+        "color":{
+          "condition": {
+            "test": "datum['Category'] == 'Median temperature'",
+            "value": "#d62828"
+          },
+          "value": "black"
+        },
+        "opacity": {"value": 1}
+      }
     }]
   }]
   
