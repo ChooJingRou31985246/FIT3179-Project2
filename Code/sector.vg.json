@@ -57,7 +57,7 @@
       }]
     },
     {
-      "width": 450,
+      "width": 500,
       "height": 400,
       "data": {
         "url": "https://raw.githubusercontent.com/ChooJingRou31985246/FIT3179-Project2/main/Source/Subsector.csv"
@@ -91,7 +91,8 @@
         "x": {
             "field": "Share of global greenhouse gas emissions (%)",
             "type": "quantitative",
-            "title": "Share of GHG emissions (%)"
+            "title": "Share of GHG emissions",
+            "axis": {"format": ".2%"}
         },
         "y": {
             "field": "Sub-sector",
