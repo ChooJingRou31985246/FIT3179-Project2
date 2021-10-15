@@ -4,7 +4,7 @@
 
   "hconcat": [
     {
-      "width": 500,
+      "width": 450,
       "height": 400,
       "data": {
         "url": "https://raw.githubusercontent.com/ChooJingRou31985246/FIT3179-Project2/main/Source/Sector.csv"
@@ -97,7 +97,8 @@
         "y": {
             "field": "Sub-sector",
             "type": "nominal",
-            "sort": {"field": "Share of global greenhouse gas emissions (%)", "op": "average", "order":"descending"}
+            "sort": {"field": "Share of global greenhouse gas emissions (%)", "op": "average", "order":"descending"},
+            "title": null
         },
         "color": {
           "field": "Category",
