@@ -34,7 +34,7 @@
           "test": "datum['Gases'] == 'Carbon dioxide (CO2)'",
           "value": 1
         },
-        "value": 0.7
+        "value": 0.6
     },
     "tooltip": [
         {"field": "Gases", "type": "nominal"},
