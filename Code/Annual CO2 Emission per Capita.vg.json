@@ -60,7 +60,7 @@
                 "color": {
                     "field": "Annual CO2 emissions (per capita)",
                     "type": "quantitative",
-                    "scale": {"domain": [0.001,20], "range": ["#ecbcfd", "#240046"]},
+                    "scale": {"domain": [0.001,20], "range": ["#eae2b7", "#d00000"]},
                     "legend": {"title": "CO2 amount (t)"}
                 },
                 "tooltip": [
