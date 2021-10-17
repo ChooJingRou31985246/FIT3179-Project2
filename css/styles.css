@@ -1,3 +1,4 @@
+
 .page {
     background: #f0efeb;
     width: 1150px;
@@ -9,14 +10,13 @@
 
 h1 {
   text-align: center;
-  font-size: 50px;
-  margin-bottom: 100px;
+  font-size: 60px;
 }
 
-.vis--title {
-  margin-top: 100px;
-	font-size: 20px;
-	text-align: center;
+.subtitle {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 75px;
 }
 
 .body--graph {
@@ -24,15 +24,11 @@ h1 {
 	flex-direction: row;
 }
 
-.vis1--container {
-	padding: 3px;
+.vis2--title {
+  margin-top: 100px;
+	font-size: 45px;
+	text-align: center;
 }
-.vis1--des {
-	text-align: left;
-	margin: 3px;
-	align-self: center;
-}
-
 .vis2--container {
   display: block;
   float: center;
@@ -40,19 +36,47 @@ h1 {
   margin-right: auto;
 }
 .vis2--des {
+  font-size: 28px;
   margin-top: 30px;
 	text-align: left;
 	margin: 3px;
   margin-left: auto;
   margin-right: auto;
 }
+.energy{
+  color: #bc4b51;
+  font-size: 35px;
+}
 
+.vis--title {
+  margin-top: 100px;
+	font-size: 45px;
+	text-align: center;
+}
+
+.vis1--container {
+	padding: 3px;
+}
+.vis1--des {
+  font-size: 28px;
+	text-align: left;
+	margin: 3px;
+	align-self: center;
+}
+.CO2{
+  color: #85905d;
+  font-size: 35px;
+}
 
 .vis3--des {
+  font-size: 28px;
 	text-align: left;
 	margin: 3px;
 	margin-left: auto;
   margin-right: auto;
+}
+.des3{
+  font-size: 35px;
 }
 
 .vis4--container {
@@ -61,10 +85,24 @@ h1 {
   margin-right: auto;
 }
 .vis4--des {
+  font-size: 28px;
 	text-align: left;
 	margin: 3px;
 	align-self: center;
   margin-right: 30px;
+}
+.des4{
+  color: #d62828;
+  font-size: 35px;
+}
+
+.summary {
+  font-size: 28px;
+	text-align: left;
+	margin: 3px;
+	align-self: center;
+  margin-right: 30px;
+  margin-top: 100px;
 }
 
 @media only screen and (max-width:800px) {
