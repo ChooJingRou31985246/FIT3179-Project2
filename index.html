@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Multiple Visualisations | An Example</title>
+    <title>Global CO2 Emissions</title>
     <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -26,7 +26,25 @@
     <div class="page">
 
             <h1>Global CO<sub>2</sub> Emissions</h1>
+            <div class="subtitle">Caring for environment, caring for Earth</div>
             <!-- pure grid group -->
+
+            <hr>
+
+            <!-- Graph2 -->
+            <div id="vis2" class="body--viz">
+              <h2 class="vis2--title">Where does Greenhouse Gases Came From?</h2>
+              <div>
+                <div id="sector" class="vis2--container"></div>
+              </div>
+            </div>
+            <p></p>
+            <p class="vis2--des">
+              <strong class="energy">73.2%</strong> of the greenhouse gases came from <strong class="energy">energy 
+              production</strong>. In energy sector such as energy in industry, buildings, transportation and fuel 
+              combustion have release most of the greenhouse gases among sub-sectors.
+            </p>
+            <!-- end pure grid group -->
 
             <!-- Graph1 -->
             <div id="vis1" class="body--viz">
@@ -34,36 +52,16 @@
               <div class="body--graph">
                 <div id="GHG" class="vis1--container"></div>
                 <div class="vis1--des">
-                  A paragraph is a series of sentences that are organized and coherent, and are all related to a
-                  single topic. Almost every piece of writing you do that is longer than a few sentences should 
-                  be organized into paragraphs. This is because paragraphs show a reader where the subdivisions 
-                  of an essay begin and end, and thus help the reader see the organization of the essay and grasp 
-                  its main points.
+                  In greenhouse gases emissions, <strong class="CO2">carbon dioxide</strong> has been release the most 
+                  to the atmosphere, which is <strong class="CO2">74.4%</strong>.
                 </div>
               </div>
             </div>
             <!-- end pure grid group -->
 
-            <!-- Graph2 -->
-            <div id="vis2" class="body--viz">
-              <h2 class="vis--title">Global Greenhouse Gas Emissions by Sector</h2>
-              <div>
-                <div id="sector" class="vis2--container"></div>
-              </div>
-            </div>
-            <p></p>
-            <p class="vis2--des">
-              A paragraph is a series of sentences that are organized and coherent, and are all related to a
-              single topic. Almost every piece of writing you do that is longer than a few sentences should 
-              be organized into paragraphs. This is because paragraphs show a reader where the subdivisions 
-              of an essay begin and end, and thus help the reader see the organization of the essay and grasp 
-              its main points.
-            </p>
-            <!-- end pure grid group -->
-
             <!-- Graph3 -->
             <div id="vis3" class="body--viz">
-              <h2 class="vis--title">Annual CO<sub>2</sub> Emissions</h2>
+              <h2 class="vis--title">Who has the Most CO<sub>2</sub> Emissions in the World?</h2>
               <div>
                 <div class="body--graph">
                   <div id="country" class="vis3--container"></div>
@@ -73,34 +71,39 @@
             </div>
             <p></p>
             <p class="vis3--des">
-              A paragraph is a series of sentences that are organized and coherent, and are all related to a
-              single topic. Almost every piece of writing you do that is longer than a few sentences should 
-              be organized into paragraphs. This is because paragraphs show a reader where the subdivisions 
-              of an essay begin and end, and thus help the reader see the organization of the essay and grasp 
-              its main points.
+              By 2019, the world has release <strong class="des3">36.44 billion metric tons</strong> of CO<sub>2</sub> 
+              to the air. Lots of the countries have produce large amount of CO<sub>2</sub>, such as <strong class="des3">China</strong> 
+              has the most amount of CO<sub>2</sub> emissions in the world. However, China is not the highest 
+              CO<sub>2</sub> emissions per capita among the world. <strong class="des3">Mongolia</strong> has the 
+              most CO<sub>2</sub> emissions per capita among the world.
             </p>
             <!-- end pure grid group -->
 
             <!-- Graph4 -->
             <div id="vis4" class="body--viz">
-              <h2 class="vis--title">Global Average Temperature</h2>
+              <h2 class="vis--title">Earth is having a Fever!</h2>
               <div class="body--graph">
                 <div class="vis4--des">
-                  A paragraph is a series of sentences that are organized and coherent, and are all related to a
-                  single topic. Almost every piece of writing you do that is longer than a few sentences should 
-                  be organized into paragraphs. This is because paragraphs show a reader where the subdivisions 
-                  of an essay begin and end, and thus help the reader see the organization of the essay and grasp 
-                  its main points.
+                  The trends of global average temperature keeps growing year by year. It has reached the highest
+                  temperature in <strong class="des4">2016</strong>, which is <strong class="des4">0.8℃</strong>. 
                 </div>
                 <div id="temperature" class="vis4--container"></div>
               </div>
             </div>
             <!-- end pure grid group -->
 
+            <!-- Summary -->
+            <div class="summary">
+              If CO2 and greenhouse gases emissions keeps increasing, it will bring up some unpredictable consequences, 
+              such as rises of sea-level and animal extinction. Let’s reduce the CO<sub>2</sub> emissions today by doing 
+              some small actions such as car-sharing, planting trees and reduce the usage of electrical appliances.
+            </div>
+            <!-- end pure grid group -->
+
 
             <div class="copyr">
                 <div class="pure-u-1-1 small-font">
-                    <p>&copy; 2021 <a href="https://github.com/ChooJingRou31985246/FIT3179-Project2" target="_blank">Jing Rou</a>. Copyright reserved.
+                    <p>&copy; 2021 Jing Rou. Copyright reserved.
                 </div>
             </div>
 
