@@ -140,6 +140,7 @@
           },
         "tooltip": [
             {"field": "Sub-sector", "type": "nominal"},
+            {"field": "Category", "type": "nominal", "title": "Sector"},
             {"field": "Share of global greenhouse gas emissions (%)", "type": "quantitative", "format": ".2%" }
         ]
       },
